@@ -51,6 +51,21 @@ Each list is available under a descriptive name. `identifier` and `title` hold t
 | `electronic_address_schemes` | EAS: electronic address schemes |
 | `identifier_schemes` | ICD: ISO 6523 identifier schemes |
 
+## ActiveModel validation
+
+`PeppolCodeValidator` validates an attribute against any of the lists. It is loaded on first use, so the gem does not
+depend on ActiveModel; apps that use it already have it.
+
+```ruby
+class InvoiceLine < ApplicationRecord
+  validates :unit_code, peppol_code: :units_of_measure
+  validates :payment_means_code, peppol_code: { list: :payment_means, allow_nil: true }
+end
+```
+
+Invalid values get the standard `:inclusion` error ("is not included in the list"), so existing translations apply.
+`message:`, `allow_nil:`, `allow_blank:`, `if:` and the other common validation options work as usual.
+
 ## Updating the code lists
 
 The JSON files in `data/` are generated from the XML code lists in

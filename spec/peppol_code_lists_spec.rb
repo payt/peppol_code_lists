@@ -5,6 +5,13 @@ RSpec.describe PeppolCodeLists do
     expect(PeppolCodeLists::VERSION).to match(/\A\d+\.\d+\.\d+\z/)
   end
 
+  it "does not load ActiveModel until the validator is used" do
+    script = 'require "peppol_code_lists"; print defined?(ActiveModel).inspect'
+    output = IO.popen([RbConfig.ruby, "-I", File.expand_path("../lib", __dir__), "-e", script], &:read)
+
+    expect(output).to eq("nil")
+  end
+
   describe ".keys" do
     it "lists every code list" do
       expect(described_class.keys).to eq(PeppolCodeLists::LISTS.keys)
