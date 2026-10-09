@@ -1,0 +1,38 @@
+{
+  "identifier": "MimeCode",
+  "title": "Mime code (subset of IANA code list)",
+  "version": "1.0",
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/MimeCode.xml",
+  "codes": [
+    {
+      "id": "text/csv",
+      "name": "text/csv",
+      "description": null
+    },
+    {
+      "id": "application/pdf",
+      "name": "application/pdf",
+      "description": null
+    },
+    {
+      "id": "image/png",
+      "name": "image/png",
+      "description": null
+    },
+    {
+      "id": "image/jpeg",
+      "name": "image/jpeg",
+      "description": null
+    },
+    {
+      "id": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "name": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "description": null
+    },
+    {
+      "id": "application/vnd.oasis.opendocument.spreadsheet",
+      "name": "application/vnd.oasis.opendocument.spreadsheet",
+      "description": null
+    }
+  ]
+}

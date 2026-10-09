@@ -1,0 +1,478 @@
+{
+  "identifier": "eas",
+  "title": "Electronic Address Scheme (EAS)",
+  "version": null,
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/eas.xml",
+  "codes": [
+    {
+      "id": "0002",
+      "name": "System Information et Repertoire des Entreprise et des Etablissements: SIRENE",
+      "description": null
+    },
+    {
+      "id": "0007",
+      "name": "Organisationsnummer (Swedish legal entities)",
+      "description": null
+    },
+    {
+      "id": "0009",
+      "name": "SIRET-CODE",
+      "description": null
+    },
+    {
+      "id": "0037",
+      "name": "LY-tunnus",
+      "description": null
+    },
+    {
+      "id": "0060",
+      "name": "Data Universal Numbering System (D-U-N-S Number)",
+      "description": null
+    },
+    {
+      "id": "0088",
+      "name": "EAN Location Code",
+      "description": null
+    },
+    {
+      "id": "0096",
+      "name": "DANISH CHAMBER OF COMMERCE Scheme (EDIRA compliant)",
+      "description": null
+    },
+    {
+      "id": "0097",
+      "name": "FTI - Ediforum Italia, (EDIRA compliant)",
+      "description": null
+    },
+    {
+      "id": "0106",
+      "name": "\"Vereniging van Kamers van Koophandel en Fabrieken in Nederland (Association of Chambers of Commerce and Industry in the Netherlands), Scheme (EDIRA compliant)\"",
+      "description": null
+    },
+    {
+      "id": "0130",
+      "name": "Directorates of the European Commission",
+      "description": null
+    },
+    {
+      "id": "0135",
+      "name": "SIA Object Identifiers",
+      "description": null
+    },
+    {
+      "id": "0142",
+      "name": "SECETI Object Identifiers",
+      "description": null
+    },
+    {
+      "id": "0151",
+      "name": "Australian Business Number (ABN) Scheme",
+      "description": null
+    },
+    {
+      "id": "0177",
+      "name": "Odette International Limited",
+      "description": null
+    },
+    {
+      "id": "0183",
+      "name": "Numéro d'identification suisse des enterprises (IDE), Swiss Unique Business Identification Number (UIDB)",
+      "description": null
+    },
+    {
+      "id": "0184",
+      "name": "DIGSTORG",
+      "description": null
+    },
+    {
+      "id": "0188",
+      "name": "Corporate Number of The Social Security and Tax Number System",
+      "description": null
+    },
+    {
+      "id": "0190",
+      "name": "Dutch Originator's Identification Number",
+      "description": null
+    },
+    {
+      "id": "0191",
+      "name": "Centre of Registers and Information Systems of the Ministry of Justice",
+      "description": null
+    },
+    {
+      "id": "0192",
+      "name": "Enhetsregisteret ved Bronnoysundregisterne",
+      "description": null
+    },
+    {
+      "id": "0193",
+      "name": "UBL.BE party identifier",
+      "description": null
+    },
+    {
+      "id": "0195",
+      "name": "Singapore UEN identifier",
+      "description": null
+    },
+    {
+      "id": "0196",
+      "name": "Kennitala - Iceland legal id for individuals and legal entities",
+      "description": null
+    },
+    {
+      "id": "0198",
+      "name": "ERSTORG",
+      "description": null
+    },
+    {
+      "id": "0199",
+      "name": "Legal Entity Identifier (LEI)",
+      "description": null
+    },
+    {
+      "id": "0200",
+      "name": "Legal entity code (Lithuania)",
+      "description": null
+    },
+    {
+      "id": "0201",
+      "name": "Codice Univoco Unità Organizzativa iPA",
+      "description": null
+    },
+    {
+      "id": "0202",
+      "name": "Indirizzo di Posta Elettronica Certificata",
+      "description": null
+    },
+    {
+      "id": "0204",
+      "name": "Leitweg-ID",
+      "description": null
+    },
+    {
+      "id": "0208",
+      "name": "Numero d'entreprise / ondernemingsnummer / Unternehmensnummer",
+      "description": null
+    },
+    {
+      "id": "0209",
+      "name": "GS1 identification keys",
+      "description": null
+    },
+    {
+      "id": "0210",
+      "name": "CODICE FISCALE",
+      "description": null
+    },
+    {
+      "id": "0211",
+      "name": "PARTITA IVA",
+      "description": null
+    },
+    {
+      "id": "0212",
+      "name": "Finnish Organization Identifier",
+      "description": null
+    },
+    {
+      "id": "0213",
+      "name": "Finnish Organization Value Add Tax Identifier",
+      "description": null
+    },
+    {
+      "id": "0215",
+      "name": "Net service ID",
+      "description": null
+    },
+    {
+      "id": "0216",
+      "name": "OVTcode",
+      "description": null
+    },
+    {
+      "id": "0218",
+      "name": "Unified registration number (Latvia)",
+      "description": null
+    },
+    {
+      "id": "0221",
+      "name": "The registered number of the qualified invoice issuer (Japan)",
+      "description": null
+    },
+    {
+      "id": "0230",
+      "name": "National e-Invoicing Framework (Malaysia)",
+      "description": null
+    },
+    {
+      "id": "0235",
+      "name": "UAE Tax Identification Number (TIN)",
+      "description": null
+    },
+    {
+      "id": "9910",
+      "name": "Hungary VAT number",
+      "description": null
+    },
+    {
+      "id": "9913",
+      "name": "Business Registers Network",
+      "description": null
+    },
+    {
+      "id": "9914",
+      "name": "Österreichische Umsatzsteuer-Identifikationsnummer",
+      "description": null
+    },
+    {
+      "id": "9915",
+      "name": "\"Österreichisches Verwaltungs bzw. Organisationskennzeichen\"",
+      "description": null
+    },
+    {
+      "id": "9918",
+      "name": "\"SOCIETY FOR WORLDWIDE INTERBANK FINANCIAL, TELECOMMUNICATION S.W.I.F.T\"",
+      "description": null
+    },
+    {
+      "id": "9919",
+      "name": "Kennziffer des Unternehmensregisters",
+      "description": null
+    },
+    {
+      "id": "9920",
+      "name": "Agencia Española de Administración Tributaria",
+      "description": null
+    },
+    {
+      "id": "9922",
+      "name": "Andorra VAT number",
+      "description": null
+    },
+    {
+      "id": "9923",
+      "name": "Albania VAT number",
+      "description": null
+    },
+    {
+      "id": "9924",
+      "name": "Bosnia and Herzegovina VAT number",
+      "description": null
+    },
+    {
+      "id": "9925",
+      "name": "Belgium VAT number",
+      "description": null
+    },
+    {
+      "id": "9926",
+      "name": "Bulgaria VAT number",
+      "description": null
+    },
+    {
+      "id": "9927",
+      "name": "Switzerland VAT number",
+      "description": null
+    },
+    {
+      "id": "9928",
+      "name": "Cyprus VAT number",
+      "description": null
+    },
+    {
+      "id": "9929",
+      "name": "Czech Republic VAT number",
+      "description": null
+    },
+    {
+      "id": "9930",
+      "name": "Germany VAT number",
+      "description": null
+    },
+    {
+      "id": "9931",
+      "name": "Estonia VAT number",
+      "description": null
+    },
+    {
+      "id": "9932",
+      "name": "United Kingdom VAT number",
+      "description": null
+    },
+    {
+      "id": "9933",
+      "name": "Greece VAT number",
+      "description": null
+    },
+    {
+      "id": "9934",
+      "name": "Croatia VAT number",
+      "description": null
+    },
+    {
+      "id": "9935",
+      "name": "Ireland VAT number",
+      "description": null
+    },
+    {
+      "id": "9936",
+      "name": "Liechtenstein VAT number",
+      "description": null
+    },
+    {
+      "id": "9937",
+      "name": "Lithuania VAT number",
+      "description": null
+    },
+    {
+      "id": "9938",
+      "name": "Luxemburg VAT number",
+      "description": null
+    },
+    {
+      "id": "9939",
+      "name": "Latvia VAT number",
+      "description": null
+    },
+    {
+      "id": "9940",
+      "name": "Monaco VAT number",
+      "description": null
+    },
+    {
+      "id": "9941",
+      "name": "Montenegro VAT number",
+      "description": null
+    },
+    {
+      "id": "9942",
+      "name": "Macedonia, the former Yugoslav Republic of VAT number",
+      "description": null
+    },
+    {
+      "id": "9943",
+      "name": "Malta VAT number",
+      "description": null
+    },
+    {
+      "id": "9944",
+      "name": "Netherlands VAT number",
+      "description": null
+    },
+    {
+      "id": "9945",
+      "name": "Poland VAT number",
+      "description": null
+    },
+    {
+      "id": "9946",
+      "name": "Portugal VAT number",
+      "description": null
+    },
+    {
+      "id": "9947",
+      "name": "Romania VAT number",
+      "description": null
+    },
+    {
+      "id": "9948",
+      "name": "Serbia VAT number",
+      "description": null
+    },
+    {
+      "id": "9949",
+      "name": "Slovenia VAT number",
+      "description": null
+    },
+    {
+      "id": "9950",
+      "name": "Slovakia VAT number",
+      "description": null
+    },
+    {
+      "id": "9951",
+      "name": "San Marino VAT number",
+      "description": null
+    },
+    {
+      "id": "9952",
+      "name": "Turkey VAT number",
+      "description": null
+    },
+    {
+      "id": "9953",
+      "name": "Holy See (Vatican City State) VAT number",
+      "description": null
+    },
+    {
+      "id": "9957",
+      "name": "French VAT number",
+      "description": null
+    },
+    {
+      "id": "9959",
+      "name": "Employer Identification Number (EIN, USA)",
+      "description": null
+    },
+    {
+      "id": "0147",
+      "name": "Standard Company Code",
+      "description": null
+    },
+    {
+      "id": "0154",
+      "name": "Identification number of economic subjects: (ICO)",
+      "description": null
+    },
+    {
+      "id": "0158",
+      "name": "Identification number of economic subject (ICO) Act on State Statistics of 29 November 2001, § 27",
+      "description": null
+    },
+    {
+      "id": "0170",
+      "name": "Teikoku Company Code",
+      "description": null
+    },
+    {
+      "id": "0194",
+      "name": "KOIOS Open Technical Dictionary",
+      "description": null
+    },
+    {
+      "id": "0203",
+      "name": "eDelivery Network Participant identifier",
+      "description": null
+    },
+    {
+      "id": "0205",
+      "name": "CODDEST",
+      "description": null
+    },
+    {
+      "id": "0217",
+      "name": "The Netherlands Chamber of Commerce and Industry establishment number",
+      "description": null
+    },
+    {
+      "id": "0225",
+      "name": "FRCTC ELECTRONIC ADDRESS",
+      "description": null
+    },
+    {
+      "id": "0240",
+      "name": "Register of legal persons (in French : Répertoire des personnes morales)",
+      "description": null
+    },
+    {
+      "id": "0244",
+      "name": "Tax Identification (Tax ID), Nigeria",
+      "description": null
+    },
+    {
+      "id": "0245",
+      "name": "Tax identification number (DIČ), Slovakia",
+      "description": null
+    }
+  ]
+}

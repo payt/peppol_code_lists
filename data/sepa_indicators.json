@@ -1,0 +1,13 @@
+{
+  "identifier": "SEPA",
+  "title": "SEPA indicator",
+  "version": "1.0",
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/SEPA.xml",
+  "codes": [
+    {
+      "id": "SEPA",
+      "name": "SEPA unique bank assigned creditor identifier",
+      "description": null
+    }
+  ]
+}

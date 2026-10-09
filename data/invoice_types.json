@@ -1,0 +1,143 @@
+{
+  "identifier": "UNCL1001-inv",
+  "title": "Invoice type code (UNCL1001 subset)",
+  "version": "D.16B",
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/UNCL1001-inv.xml",
+  "codes": [
+    {
+      "id": "71",
+      "name": "Request for payment",
+      "description": "Document/message issued by a creditor to a debtor to request payment of one or more invoices past due."
+    },
+    {
+      "id": "80",
+      "name": "Debit note related to goods or services",
+      "description": "Debit information related to a transaction for goods or services to the relevant party."
+    },
+    {
+      "id": "82",
+      "name": "Metered services invoice",
+      "description": "Document/message claiming payment for the supply of metered services (e.g., gas, electricity, etc.) supplied to a fixed meter whose consumption is measured over a period of time."
+    },
+    {
+      "id": "84",
+      "name": "Debit note related to financial adjustments",
+      "description": "Document/message for providing debit information related to financial adjustments to the relevant party."
+    },
+    {
+      "id": "102",
+      "name": "Tax notification",
+      "description": "Used to specify that the message is a tax notification."
+    },
+    {
+      "id": "218",
+      "name": "Final payment request based on completion of work",
+      "description": "The final payment request of a series of payment requests submitted upon completion of all the work."
+    },
+    {
+      "id": "219",
+      "name": "Payment request for completed units",
+      "description": "A request for payment for completed units."
+    },
+    {
+      "id": "326",
+      "name": "Partial invoice",
+      "description": "Document/message specifying details of an incomplete invoice."
+    },
+    {
+      "id": "331",
+      "name": "Commercial invoice which includes a packing list",
+      "description": "Commercial transaction (invoice) will include a packing list."
+    },
+    {
+      "id": "380",
+      "name": "Commercial invoice",
+      "description": "(1334) Document/message claiming payment for goods or services supplied under conditions agreed between seller and buyer."
+    },
+    {
+      "id": "382",
+      "name": "Commission note",
+      "description": "Document/message in which a seller specifies the amount of commission, the percentage of the invoice amount, or some other basis for the calculation of the commission to which a sales agent is entitled."
+    },
+    {
+      "id": "383",
+      "name": "Debit note",
+      "description": "Document/message for providing debit information to the relevant party."
+    },
+    {
+      "id": "384",
+      "name": "Corrected invoice",
+      "description": "Commercial invoice that includes revised information differing from an earlier submission of the same invoice."
+    },
+    {
+      "id": "386",
+      "name": "Prepayment invoice",
+      "description": "An invoice to pay amounts for goods and services in advance; these amounts will be subtracted from the final invoice."
+    },
+    {
+      "id": "388",
+      "name": "Tax invoice",
+      "description": "An invoice for tax purposes."
+    },
+    {
+      "id": "389",
+      "name": "Self-billed invoice",
+      "description": "An invoice the invoicee is producing instead of the seller."
+    },
+    {
+      "id": "393",
+      "name": "Factored invoice",
+      "description": "Invoice assigned to a third party for collection."
+    },
+    {
+      "id": "395",
+      "name": "Consignment invoice",
+      "description": "Commercial invoice that covers a transaction other than one involving a sale."
+    },
+    {
+      "id": "553",
+      "name": "Forwarder's invoice discrepancy report",
+      "description": "Document/message reporting invoice discrepancies indentified by the forwarder."
+    },
+    {
+      "id": "575",
+      "name": "Insurer's invoice",
+      "description": "Document/message issued by an insurer specifying the cost of an insurance which has been effected and claiming payment therefore."
+    },
+    {
+      "id": "623",
+      "name": "Forwarder's invoice",
+      "description": "Invoice issued by a freight forwarder specifying services rendered and costs incurred and claiming payment therefore."
+    },
+    {
+      "id": "780",
+      "name": "Freight invoice",
+      "description": "Document/message issued by a transport operation specifying freight costs and charges incurred for a transport operation and stating conditions of payment."
+    },
+    {
+      "id": "817",
+      "name": "Claim notification",
+      "description": "Document notifying a claim."
+    },
+    {
+      "id": "870",
+      "name": "Consular invoice",
+      "description": "Document/message to be prepared by an exporter in his country and presented to a diplomatic representation of the importing country for endorsement and subsequently to be presented by the importer in connection with the import of the goods described therein."
+    },
+    {
+      "id": "875",
+      "name": "Partial construction invoice",
+      "description": "Partial invoice in the context of a specific construction project."
+    },
+    {
+      "id": "876",
+      "name": "Partial final construction invoice",
+      "description": "Invoice concluding all previous partial construction invoices of a completed partial rendered service in the context of a specific construction project."
+    },
+    {
+      "id": "877",
+      "name": "Final construction invoice",
+      "description": "Invoice concluding all previous partial invoices and partial final construction invoices in the context of a specific construction project."
+    }
+  ]
+}

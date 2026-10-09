@@ -1,0 +1,103 @@
+{
+  "identifier": "UNCL5189",
+  "title": "Allowance reason codes (UNCL5189 subset)",
+  "version": "D.16B",
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/UNCL5189.xml",
+  "codes": [
+    {
+      "id": "41",
+      "name": "Bonus for works ahead of schedule",
+      "description": null
+    },
+    {
+      "id": "42",
+      "name": "Other bonus",
+      "description": null
+    },
+    {
+      "id": "60",
+      "name": "Manufacturer’s consumer discount",
+      "description": null
+    },
+    {
+      "id": "62",
+      "name": "Due to military status",
+      "description": null
+    },
+    {
+      "id": "63",
+      "name": "Due to work accident",
+      "description": null
+    },
+    {
+      "id": "64",
+      "name": "Special agreement",
+      "description": null
+    },
+    {
+      "id": "65",
+      "name": "Production error discount",
+      "description": null
+    },
+    {
+      "id": "66",
+      "name": "New outlet discount",
+      "description": null
+    },
+    {
+      "id": "67",
+      "name": "Sample discount",
+      "description": null
+    },
+    {
+      "id": "68",
+      "name": "End-of-range discount",
+      "description": null
+    },
+    {
+      "id": "70",
+      "name": "Incoterm discount",
+      "description": null
+    },
+    {
+      "id": "71",
+      "name": "Point of sales threshold allowance",
+      "description": null
+    },
+    {
+      "id": "88",
+      "name": "Material surcharge/deduction",
+      "description": null
+    },
+    {
+      "id": "95",
+      "name": "Discount",
+      "description": null
+    },
+    {
+      "id": "100",
+      "name": "Special rebate",
+      "description": null
+    },
+    {
+      "id": "102",
+      "name": "Fixed long term",
+      "description": null
+    },
+    {
+      "id": "103",
+      "name": "Temporary",
+      "description": null
+    },
+    {
+      "id": "104",
+      "name": "Standard",
+      "description": null
+    },
+    {
+      "id": "105",
+      "name": "Yearly turnover",
+      "description": null
+    }
+  ]
+}

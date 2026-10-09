@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeList xmlns="urn:fdc:difi.no:2017:vefa:structure:CodeList-1">
+    <Title>Test list</Title>
+    <Identifier>TEST</Identifier>
+    <Version>1.0</Version>
+    <Agency>Test</Agency>
+    <Code>
+        <Id>C62</Id>
+        <Name>one</Name>
+        <Description>A unit of count defining the number of
+            pieces.</Description>
+    </Code>
+    <Code>
+        <Id>ZZ</Id>
+        <Name>mutually defined</Name>
+    </Code>
+</CodeList>

@@ -1,0 +1,23 @@
+{
+  "identifier": "UNCL2005",
+  "title": "VAT date code (UNCL2005 subset)",
+  "version": "D.16B",
+  "source": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/structure/codelist/UNCL2005.xml",
+  "codes": [
+    {
+      "id": "3",
+      "name": "Invoice document issue date time",
+      "description": null
+    },
+    {
+      "id": "35",
+      "name": "Delivery date/time, actual",
+      "description": null
+    },
+    {
+      "id": "432",
+      "name": "Paid to date",
+      "description": null
+    }
+  ]
+}
