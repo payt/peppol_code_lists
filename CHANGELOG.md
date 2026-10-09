@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Add `PeppolCodeValidator` for `validates :attribute, peppol_code: :units_of_measure` in ActiveModel/ActiveRecord.
+
 ## 0.1.0
 
 - Initial release with all Peppol BIS Billing 3.0 code lists from OpenPEPPOL/peppol-bis-invoice-3 `v3.0.20`

@@ -6,6 +6,9 @@ require_relative "peppol_code_lists/version"
 require_relative "peppol_code_lists/code"
 require_relative "peppol_code_lists/code_list"
 
+# Loaded on first use by `validates :attribute, peppol_code: ...`, so ActiveModel is only required by apps using it.
+autoload :PeppolCodeValidator, File.expand_path("peppol_code_lists/validator", __dir__)
+
 # Code lists of Peppol BIS Billing 3.0, as published by OpenPEPPOL.
 #
 #   PeppolCodeLists.units_of_measure.valid?("C62")                    # => true
